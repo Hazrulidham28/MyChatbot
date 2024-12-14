@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 
 client = OpenAI(
-    api_key="rpa_SRJG3PLOBRXZ6Z9L23J1P48QSYQ4UWZ4IXTGUYRJa1o6w6",
+    api_key=RUNPOD_API_KEY,
     base_url=f"https://api.runpod.ai/v2/{RUNPOD_ENDPOINT_ID}/openai/v1",
 )
 
